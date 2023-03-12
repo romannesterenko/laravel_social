@@ -1,0 +1,231 @@
+.quick_add_input{
+    border: 1px solid #dddddd;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+}
+
+.edit-profile--form {
+    padding: 42px 15px 50px;
+    background-color: #fff;
+    position: relative;
+}
+.note-editor.note-frame.card{
+    padding: 0!important;
+    box-shadow: none!important;
+}
+.post-settings li a{
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.fit-cover{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.btn.btn-sm.btn-kv.btn-default.btn-outline-secondary{
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #0077ff;
+    color: #333333;
+}
+.btn.btn-sm.btn-kv.btn-default.btn-outline-secondary:hover{
+    color: #fff;
+    border-color: #0077ff;
+    background-color: #0077ff;
+}
+.file-footer-caption{
+    display: none!important;
+}
+.krajee-default.file-preview-frame .file-thumbnail-footer{
+    height: 60px;
+    padding: 15px 0px;
+}
+.custom_file_input_label{
+    color: #aaa;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 85px 10px;
+}
+.shadow-1-strong{
+    margin-right: 0.5rem!important;
+}
+.me-3{
+    max-height: 50px;
+    border-radius: 10px;
+    border: 2px solid #dee2e6;
+}
+.load_profile{
+    cursor: pointer;
+}
+.load_profile:hover{
+    border: 2px solid #007bff;
+}
+.flex-grow-1.flex-shrink-1{
+    width: 100%;
+}
+.note-toolbar{
+    background-color: #fff!important;
+}
+.note-editor .note-toolbar, .note-popover .popover-content{
+    padding: 0!important;
+}
+.note-editor .note-toolbar>.note-btn-group, .note-popover .popover-content>.note-btn-group{
+    margin-top: 0!important;
+}
+
+.form-control_custom {
+    width: 100%;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form-control_select {
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.form-control_select .list{
+    width: 100%;
+}
+
+.fw-bold{font-weight:700!important}
+
+.delete_picture_button, .delete_post_picture_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #999999FF;
+    color: #fff;
+    margin: 11px;
+    opacity: 0.7;
+}
+
+.delete_picture_button:hover, .delete_post_picture_button:hover{
+    background-color: #666666;
+    opacity: 1;
+}
+
+.col-12 .delete_picture_button, .col-12 .delete_post_picture_button{
+    right: 15px;
+}
+#drop_zone, #drop_zone_post {
+    border: 2px dashed #eee;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.like-button.clicked i{
+    color: #0077ff;
+}
+.like-button.clicked span{
+    color: #0077ff;
+}
+.video {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* custom radio */
+
+.customRadio input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+.customRadio input[type="radio"]+label {
+    position: relative;
+    padding: 3px 0 0 40px;
+    cursor: pointer;
+}
+
+.customRadio input[type="radio"]+label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #0077ff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.customRadio input[type="radio"]+label:after {
+    content: '';
+    background: #0077ff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+    transform: scale(2);
+    transition: transform 0.3s linear, opacity 0.3s linear;
+}
+
+.customRadio input[type="radio"]:checked+label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+.main-menu-component .unorder-list{
+    margin-bottom: 5px;
+}
+.main-menu-component .unorder-list .profile-thumb{
+    font-size: 1.5em;
+    min-width: 25px;
+}
+.main-menu-component .unorder-list .profile-thumb a{
+    color: #444444;
+}
+.main-menu-component .unorder-list .profile-thumb a i{
+    font-weight: 600;
+}
+.post-meta-like.like-button i{
+    font-weight: 600;
+}
+.comment-share-meta i{
+    font-weight: 600;
+}
+.bi{
+    font-weight: 600;
+}
+.bi.bi-reply{
+    font-size: 19px;
+}
+
+.user_avatar_in_community{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+}
+.user_avatar_in_community figure{
+    width: 25px;
+    height: 25px;
+}
+.note-editor.note-frame.card{
+    border-radius: 0px;
+}
